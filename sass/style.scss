@@ -1,0 +1,73 @@
+$primary:#000;
+$body-bg:transparent;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@font-face{
+    font-family:"t1";
+    src:"../fonts/Brushstroke-Plain/BRUSHSTP.ttf"
+}
+
+@font-face{
+    font-family:"t2";
+    src:"../fonts/Carrington/Carrington.ttf"
+}
+
+html{
+    background: url("../assents/c01.jpg") no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+    section h1{
+        font-family: "t2";
+        text-shadow: 2px 2px black;
+    }
+    
+    section h3{
+        font-family: "t1";
+    }
+    
+    .bc{
+        background: rgba(0,0,0,.8);    
+    }
+    
+    hr{
+        border: 1px solid #fff;
+    }
+    
+    .col-md-6{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .bo img{
+        border: 2px solid black;
+        box-sizing: border-box;
+    }
+    
+    figure{
+        position: relative;
+        box-shadow: 1px 1px 4px black;
+        margin: 0;
+        padding: 0;
+    }
+    
+    figure figcaption{
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        background-color: rgba(0,0,0,0.4);
+        color:white;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        transition: opacity 2s;
+    }
+    
+    figure figcaption:hover{
+        opacity: 1
+    }
+}

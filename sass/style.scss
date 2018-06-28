@@ -1,6 +1,8 @@
 $primary:#000;
 $body-bg:transparent;
-
+$dropdown-bg:#000;
+$dropdown-link-color:#fff;
+    
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 @font-face{
@@ -69,5 +71,9 @@ html{
     
     figure figcaption:hover{
         opacity: 1
+    }
+    
+    footer{
+        background: #000;
     }
 }

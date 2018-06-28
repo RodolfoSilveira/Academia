@@ -2214,7 +2214,7 @@ input[type="button"].btn-block {
   color: #212529;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: #000;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem; }
@@ -2310,7 +2310,7 @@ input[type="button"].btn-block {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: #fff;
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
@@ -2341,7 +2341,7 @@ input[type="button"].btn-block {
 .dropdown-item-text {
   display: block;
   padding: 0.25rem 1.5rem;
-  color: #212529; }
+  color: #fff; }
 
 .btn-group,
 .btn-group-vertical {
@@ -6794,5 +6794,7 @@ html {
     transition: opacity 2s; }
   html figure figcaption:hover {
     opacity: 1; }
+  html footer {
+    background: #000; }
 
 /*# sourceMappingURL=style.css.map */

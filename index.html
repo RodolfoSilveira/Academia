@@ -13,9 +13,15 @@
         
         <header class="d-block">
                     
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
                 
-                <a href="#" class="navbar-brand">Menu</a>
+                <a href="#" class="navbar-brand dropdown nav-link" role="button" id="navbarDropdown" data-toggle="dropdown">Menu</a>
+                
+                <div class="dropdown-menu ml-2" data-target="#navbarDropdown">
+                    <a class="dropdown-item" href="#galeria">Galeria</a>
+                    <a class="dropdown-item" href="#sobre">Sobre</a>
+                    <a class="dropdown-item" href="#contato">Contato</a>
+                </div>
                 
             </nav>
                 
@@ -61,7 +67,7 @@
                 
                 <div class="row text-center">
                     <div class="col-md-12">
-                       <h1 class="display-3 text-muted">ACADEMIA OXIGYM</h1>
+                       <h1 class="display-3 text-muted">Lorem Ipsum</h1>
                     </div>
                 </div>
                 
@@ -72,22 +78,22 @@
                 <div class="row text-light bc">
                     
                     <div class="col-md-4 mb-2">
-                        <h3 class="text-center display-4">Fé</h3>
+                        <h3 class="text-center display-4">Lorem Ipsum</h3>
                         <hr>
-                        <p class="lead">é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI</p>
+                        <p class="lead">Proin nec erat ac orci suscipit molestie. Suspendisse fermentum aliquet dictum. Sed faucibus tellus in elit vehicula fermentum quis at magna. Maecenas sed pharetra urna.</p>
                     </div>
                     
                     <div class="col-md-4 mb-2">
                         
-                        <h3 class="text-center display-4">Foco</h3>
+                        <h3 class="text-center display-4">Lorem Ipsum</h3>
                         <hr>
-                        <p class="lead">é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI</p>
+                        <p class="lead">Vestibulum mattis libero lobortis varius convallis. Quisque sagittis leo lacinia est dignissim, et ornare lectus luctus. Duis in hendrerit velit. Duis ipsum tortor, blandit nec rhoncus non, tincidunt non ex.</p>
                     </div>
                     
                     <div class="col-md-4 mb-2">
-                        <h3 class="text-center display-4">Força</h3>
+                        <h3 class="text-center display-4">Lorem Ipsum</h3>
                         <hr>
-                        <p class="lead">é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI</p>
+                        <p class="lead">Proin interdum, leo id finibus euismod, lorem urna mollis nunc, a eleifend massa arcu quis libero. Duis congue tempor est a vehicula.</p>
                     </div>
                     
                 </div>
@@ -95,7 +101,7 @@
             </div>
             
             
-            <div class="container-fluid">
+            <div class="container-fluid" id="galeria">
                 
                 <div class="row bo text-center">
                     <div class="col-md-6">
@@ -137,14 +143,43 @@
                 
             </div>
             
-            <div class="container text-light my-5">
+            <div class="container text-light my-5" id="sobre">
                 <fieldset class="text-justify bc">
-                    <h3>Lorem Ipsum</h3>
-                    <p class="lead">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+                    <h3 class="text-center my-2 p-3" style="text-shadow: 2px 2px black">Lorem ipsum</h3>
+                    <p class="lead p-3" style="text-indent: 50px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim aliquet bibendum. Mauris a placerat dui, sed ullamcorper turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi vitae blandit magna. Phasellus nisi purus, semper non rutrum quis, cursus sit amet elit. Vestibulum diam lacus, sagittis sit amet risus id, dapibus pretium dui. Curabitur arcu turpis, blandit a odio sed, semper pretium ante. Vivamus laoreet vestibulum dui sagittis molestie. Nunc maximus, urna vel posuere feugiat, purus nulla condimentum odio, id sagittis lacus leo sit amet tortor. Maecenas rutrum congue ante quis vulputate. In consectetur mi diam, vel tempus nunc congue sit amet. Nunc maximus condimentum felis. </p>
+                    <p class="lead p-3" style="text-indent: 50px;">Donec eu eleifend urna. Nunc quam magna, hendrerit rhoncus eros eu, luctus blandit felis. Donec sit amet faucibus ex, sit amet dapibus massa. Morbi lacus ante, tempus ac lobortis et, tempor non velit. Quisque quis placerat sapien, in convallis diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer pulvinar at risus tempus gravida. Mauris vel metus nisl. </p>
                 </fieldset>
             </div>
             
         </section>
+        
+        <footer class="mt-5 bc" id="contato">
+            <div class="container">
+                <div class="row">
+                    <div class="text-light col-sm-6 p-3">
+                        
+                        <h3 class="p-3">Contato</h3>
+                        
+                        <p class="lead"><i class="fa fa-envelope-square pr-1"></i>loremipson@dadas.adasd</p>
+                        <p class="lead"><i class="fa fa-phone-square pr-1"></i>213131231</p>
+                        
+                    </div>
+                    
+                    <div class="col-sm-6 p-3">
+                        
+                        <h3 class="text-light p-3">Social</h3>
+                    
+                        <div class="btn-group-vertical btn-block btn-group-lg" role="group">
+                            <a class="btn btn-outline-danger" href="#"><i class="fa fa-facebook-square"></i>Facebook</a>
+                            <a class="btn btn-outline-info" href="#"><i class="fa fa-twitter-square"></i>Twitter</a>
+                            <a class="btn btn-outline-warning" href="#"><i class="fa fa-instagram"></i>Instagram</a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
         
         <script src="node_modules/jquery/dist/jquery.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.js"></script>
